@@ -20,70 +20,70 @@ Jupyter Notebook / Google Colab
 
 📌 Etapas do Projeto
 
-Extração
+1. Extração
 
-Importação dos dados no formato JSON.
+  - Importação dos dados no formato JSON.
 
-Normalização das tabelas aninhadas (clientes, telefone, internet, conta).
+  - Normalização das tabelas aninhadas (clientes, telefone, internet, conta).
 
-Transformação
+2. Transformação
 
-Limpeza de valores nulos e inconsistentes.
+  - Limpeza de valores nulos e inconsistentes.
 
-Conversão de variáveis numéricas e categóricas.
+  - Conversão de variáveis numéricas e categóricas.
 
-Criação da variável binária Churn (1 = saiu, 0 = permaneceu).
+  - Criação da variável binária Churn (1 = saiu, 0 = permaneceu).
 
-Carga e Análise (EDA)
+3. Carga e Análise (EDA)
 
-Estatísticas gerais da base de clientes.
+  - Estatísticas gerais da base de clientes.
 
-Visualizações: churn por tipo de contrato, método de pagamento, mensalidade e tenure.
+  - Visualizações: churn por tipo de contrato, método de pagamento, mensalidade e tenure.
 
-Heatmap de correlação entre variáveis numéricas.
+  - Heatmap de correlação entre variáveis numéricas.
 
-Relatório Final
+4. Relatório Final
 
-Taxa de churn identificada (~27%).
+  - Taxa de churn identificada (~27%).
 
-Clientes com contrato "Month-to-month" são os mais propensos a sair.
+  - Clientes com contrato "Month-to-month" são os mais propensos a sair.
 
-Pagamento por "Electronic Check" aparece fortemente associado ao churn.
+  - Pagamento por "Electronic Check" aparece fortemente associado ao churn.
 
-Clientes novos (tenure < 12 meses) apresentam maior risco de evasão.
+  - Clientes novos (tenure < 12 meses) apresentam maior risco de evasão.
 
-Senior Citizens demonstram taxa de cancelamento mais alta.
+  - Senior Citizens demonstram taxa de cancelamento mais alta.
 
 📈 Principais Insights
 
-Incentivar contratos de longo prazo (1–2 anos).
+- Incentivar contratos de longo prazo (1–2 anos).
 
-Criar programas de fidelização para novos clientes.
+- Criar programas de fidelização para novos clientes.
 
-Reduzir churn migrando clientes de electronic check para meios automáticos de pagamento.
+- Reduzir churn migrando clientes de electronic check para meios automáticos de pagamento.
 
-Oferecer benefícios personalizados a clientes de maior risco.
+- Oferecer benefícios personalizados a clientes de maior risco.
 
 ▶️ Como Executar o Projeto
 
-Clone o repositório ou baixe os arquivos.
+1. Clone o repositório ou baixe os arquivos.
 
-Instale as dependências:
+2. Instale as dependências:
 
-pip install pandas seaborn matplotlib
+- pip install pandas seaborn matplotlib
 
 
-Abra o notebook no Jupyter ou Google Colab.
+ 3. Abra o notebook no Jupyter ou Google Colab.
 
-Execute as células nas seções:
+ 4. Execute as células nas seções:
 
-Extração
+  - Extração
 
-Transformação
+  - Transformação
+  
+  - Carga e análise
 
-Carga e análise
-
-Relatório Final
+  - Relatório Final
 
 👩‍💻 Autoria
 
